@@ -1,0 +1,23 @@
+[0.016s] Invoking command in '/home/yappel/ros2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yappel/ros2_ws/build/ackermann_msgs -- -j16 -l16
+[0.071s] [  7%] Built target ackermann_msgs__cpp
+[0.072s] [ 12%] Built target ackermann_msgs__rosidl_generator_c
+[0.089s] [ 12%] Built target ament_cmake_python_copy_ackermann_msgs
+[0.100s] [ 43%] Built target ackermann_msgs__rosidl_typesupport_introspection_c
+[0.100s] [ 43%] Built target ackermann_msgs__rosidl_typesupport_cpp
+[0.100s] [ 43%] Built target ackermann_msgs__rosidl_typesupport_c
+[0.101s] [ 69%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp
+[0.101s] [ 69%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c
+[0.101s] [ 74%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp
+[0.130s] [ 74%] Built target ackermann_msgs
+[0.152s] [ 76%] Built target ackermann_msgs__py
+[0.176s] [ 84%] Built target ackermann_msgs__rosidl_generator_py
+[0.199s] [ 94%] Built target ackermann_msgs__rosidl_typesupport_c__pyext
+[0.199s] [ 94%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext
+[0.199s] [100%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.355s] running egg_info
+[0.356s] writing ackermann_msgs.egg-info/PKG-INFO
+[0.356s] writing dependency_links to ackermann_msgs.egg-info/dependency_links.txt
+[0.356s] writing top-level names to ackermann_msgs.egg-info/top_level.txt
+[0.359s] reading manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[0.359s] writing manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[0.389s] [100%] Built target ament_cmake_python_build_ackermann_msgs_egg

@@ -1,0 +1,6 @@
+Invoking command in '/home/yappel/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yappel/ros2_ws/src/smart_car -DCMAKE_INSTALL_PREFIX=/home/yappel/ros2_ws/install/smart_car
+Invoked command in '/home/yappel/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yappel/ros2_ws/src/smart_car -DCMAKE_INSTALL_PREFIX=/home/yappel/ros2_ws/install/smart_car
+Invoking command in '/home/yappel/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yappel/ros2_ws/build/smart_car -- -j16 -l16
+Invoked command in '/home/yappel/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yappel/ros2_ws/build/smart_car -- -j16 -l16
+Invoking command in '/home/yappel/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yappel/ros2_ws/build/smart_car
+Invoked command in '/home/yappel/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yappel/ros2_ws/build/smart_car

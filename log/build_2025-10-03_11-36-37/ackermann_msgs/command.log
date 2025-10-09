@@ -1,0 +1,4 @@
+Invoking command in '/home/yappel/ros2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yappel/ros2_ws/build/ackermann_msgs -- -j16 -l16
+Invoked command in '/home/yappel/ros2_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yappel/ros2_ws/build/ackermann_msgs -- -j16 -l16
+Invoking command in '/home/yappel/ros2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yappel/ros2_ws/build/ackermann_msgs
+Invoked command in '/home/yappel/ros2_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yappel/ros2_ws/build/ackermann_msgs

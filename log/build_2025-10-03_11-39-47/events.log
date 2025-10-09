@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.000412] (-) JobUnselected: {'identifier': 'smartcar_msgs'}
+[0.000436] (smart_car) JobQueued: {'identifier': 'smart_car', 'dependencies': OrderedDict()}
+[0.000461] (car_gazebo_plugin) JobQueued: {'identifier': 'car_gazebo_plugin', 'dependencies': OrderedDict([('ackermann_msgs', '/home/yappel/ros2_ws/install/ackermann_msgs')])}
+[0.000755] (smart_car) JobStarted: {'identifier': 'smart_car'}
+[0.006112] (car_gazebo_plugin) JobStarted: {'identifier': 'car_gazebo_plugin'}
+[0.010307] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'cmake'}
+[0.010742] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'build'}
+[0.011819] (smart_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yappel/ros2_ws/build/smart_car', '--', '-j16', '-l16'], 'cwd': '/home/yappel/ros2_ws/build/smart_car', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yappel'), ('LC_TIME', 'nl_NL.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/yappel/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/home/yappel/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yappel'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/206/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/yappel/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/206/usr/share/code/code'), ('MANAGERPID', '958'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1208'), ('BUNDLED_DEBUGPY_PATH', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1729'), ('COLCON_PREFIX_PATH', '/home/yappel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yappel'), ('JOURNAL_STREAM', '8:7761'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/yappel/ros2_ws/install/smartcar_msgs/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'yappel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/yappel/.local/bin:/home/yappel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/yappel/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/yappel-IdeaPad-5-Pro-16ACH6:@/tmp/.ICE-unix/1180,unix/yappel-IdeaPad-5-Pro-16ACH6:/tmp/.ICE-unix/1180'), ('GTK_EXE_PREFIX', '/snap/code/206/usr'), ('INVOCATION_ID', '3d62c886056d4b43b7765873c6918955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/206/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e20bd17b5a3a0058.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/yappel/.config/Code/User/workspaceStorage/6c22d946cfc67c5d308b9627e1123bf8/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/yappel/snap/code/206/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-593312e858.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/yappel/snap/code/206/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin:/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('OZONE_PLATFORM', 'x11'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yappel/ros2_ws/build/smart_car'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/yappel/snap/code/206/.local/share:/home/yappel/snap/code/206:/snap/code/206/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yappel/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin:/home/yappel/ros2_ws/install/ackermann_msgs')]), 'shell': False}
+[0.016694] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'cmake'}
+[0.017675] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'build'}
+[0.018022] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yappel/ros2_ws/build/car_gazebo_plugin', '--', '-j16', '-l16'], 'cwd': '/home/yappel/ros2_ws/build/car_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yappel'), ('LC_TIME', 'nl_NL.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/yappel/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yappel/ros2_ws/install/ackermann_msgs/lib:/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yappel'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/206/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/yappel/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/206/usr/share/code/code'), ('MANAGERPID', '958'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1208'), ('BUNDLED_DEBUGPY_PATH', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1729'), ('COLCON_PREFIX_PATH', '/home/yappel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yappel'), ('JOURNAL_STREAM', '8:7761'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/yappel/ros2_ws/install/smartcar_msgs/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'yappel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/yappel/.local/bin:/home/yappel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/yappel/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/yappel-IdeaPad-5-Pro-16ACH6:@/tmp/.ICE-unix/1180,unix/yappel-IdeaPad-5-Pro-16ACH6:/tmp/.ICE-unix/1180'), ('GTK_EXE_PREFIX', '/snap/code/206/usr'), ('INVOCATION_ID', '3d62c886056d4b43b7765873c6918955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/206/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e20bd17b5a3a0058.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/yappel/.config/Code/User/workspaceStorage/6c22d946cfc67c5d308b9627e1123bf8/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/yappel/snap/code/206/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-593312e858.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/yappel/snap/code/206/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin:/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('OZONE_PLATFORM', 'x11'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yappel/ros2_ws/build/car_gazebo_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/yappel/snap/code/206/.local/share:/home/yappel/snap/code/206:/snap/code/206/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yappel/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin')]), 'shell': False}
+[0.069558] (smart_car) CommandEnded: {'returncode': 0}
+[0.071375] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'install'}
+[0.084951] (smart_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yappel/ros2_ws/build/smart_car'], 'cwd': '/home/yappel/ros2_ws/build/smart_car', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yappel'), ('LC_TIME', 'nl_NL.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/yappel/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/home/yappel/ros2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yappel'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/206/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/yappel/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/206/usr/share/code/code'), ('MANAGERPID', '958'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1208'), ('BUNDLED_DEBUGPY_PATH', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1729'), ('COLCON_PREFIX_PATH', '/home/yappel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yappel'), ('JOURNAL_STREAM', '8:7761'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/yappel/ros2_ws/install/smartcar_msgs/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'yappel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/yappel/.local/bin:/home/yappel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/yappel/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/yappel-IdeaPad-5-Pro-16ACH6:@/tmp/.ICE-unix/1180,unix/yappel-IdeaPad-5-Pro-16ACH6:/tmp/.ICE-unix/1180'), ('GTK_EXE_PREFIX', '/snap/code/206/usr'), ('INVOCATION_ID', '3d62c886056d4b43b7765873c6918955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/206/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e20bd17b5a3a0058.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/yappel/.config/Code/User/workspaceStorage/6c22d946cfc67c5d308b9627e1123bf8/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/yappel/snap/code/206/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-593312e858.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/yappel/snap/code/206/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin:/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('OZONE_PLATFORM', 'x11'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yappel/ros2_ws/build/smart_car'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/yappel/snap/code/206/.local/share:/home/yappel/snap/code/206:/snap/code/206/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yappel/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin:/home/yappel/ros2_ws/install/ackermann_msgs')]), 'shell': False}
+[0.094210] (smart_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.094461] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/launch\n'}
+[0.094549] (smart_car) StdoutLine: {'line': b'-- Installing: /home/yappel/ros2_ws/install/smart_car/share/smart_car/launch/sim.launch.py\n'}
+[0.094678] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/urdf\n'}
+[0.094803] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/urdf/smart_car.urdf\n'}
+[0.094858] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro\n'}
+[0.094906] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/worlds\n'}
+[0.094976] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/worlds/empty.world\n'}
+[0.095053] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/worlds/smalltown.world\n'}
+[0.095117] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/scripts\n'}
+[0.095243] (smart_car) StdoutLine: {'line': b'-- Installing: /home/yappel/ros2_ws/install/smart_car/share/smart_car/scripts/joint_state_publisher.py\n'}
+[0.095358] (smart_car) StdoutLine: {'line': b'-- Installing: /home/yappel/ros2_ws/install/smart_car/lib/smart_car/joint_state_publisher.py\n'}
+[0.095435] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/ament_index/resource_index/package_run_dependencies/smart_car\n'}
+[0.095533] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/ament_index/resource_index/parent_prefix_path/smart_car\n'}
+[0.095715] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.sh\n'}
+[0.095810] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.dsv\n'}
+[0.095866] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/environment/path.sh\n'}
+[0.095915] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/environment/path.dsv\n'}
+[0.095969] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/local_setup.bash\n'}
+[0.096026] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/local_setup.sh\n'}
+[0.096079] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/local_setup.zsh\n'}
+[0.096130] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/local_setup.dsv\n'}
+[0.096176] (smart_car) StdoutLine: {'line': b'-- Installing: /home/yappel/ros2_ws/install/smart_car/share/smart_car/package.dsv\n'}
+[0.096249] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/ament_index/resource_index/packages/smart_car\n'}
+[0.096305] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig.cmake\n'}
+[0.096349] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig-version.cmake\n'}
+[0.096390] (smart_car) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/package.xml\n'}
+[0.099143] (smart_car) CommandEnded: {'returncode': 0}
+[0.099930] (-) TimerEvent: {}
+[0.116500] (smart_car) JobEnded: {'identifier': 'smart_car', 'rc': 0}
+[0.122864] (car_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/car_gazebo_plugin.dir/src/car_gazebo_plugin.cpp.o\x1b[0m\n'}
+[0.200045] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.401212] (-) TimerEvent: {}
+[0.501814] (-) TimerEvent: {}
+[0.602099] (-) TimerEvent: {}
+[0.702385] (-) TimerEvent: {}
+[0.802752] (-) TimerEvent: {}
+[0.903045] (-) TimerEvent: {}
+[1.003343] (-) TimerEvent: {}
+[1.103849] (-) TimerEvent: {}
+[1.204373] (-) TimerEvent: {}
+[1.304754] (-) TimerEvent: {}
+[1.405104] (-) TimerEvent: {}
+[1.505472] (-) TimerEvent: {}
+[1.605773] (-) TimerEvent: {}
+[1.706036] (-) TimerEvent: {}
+[1.806343] (-) TimerEvent: {}
+[1.906761] (-) TimerEvent: {}
+[2.007075] (-) TimerEvent: {}
+[2.107352] (-) TimerEvent: {}
+[2.207740] (-) TimerEvent: {}
+[2.308230] (-) TimerEvent: {}
+[2.408501] (-) TimerEvent: {}
+[2.508821] (-) TimerEvent: {}
+[2.609294] (-) TimerEvent: {}
+[2.709985] (-) TimerEvent: {}
+[2.810294] (-) TimerEvent: {}
+[2.910672] (-) TimerEvent: {}
+[3.011049] (-) TimerEvent: {}
+[3.111315] (-) TimerEvent: {}
+[3.211652] (-) TimerEvent: {}
+[3.312219] (-) TimerEvent: {}
+[3.412779] (-) TimerEvent: {}
+[3.513056] (-) TimerEvent: {}
+[3.613354] (-) TimerEvent: {}
+[3.713640] (-) TimerEvent: {}
+[3.813901] (-) TimerEvent: {}
+[3.914160] (-) TimerEvent: {}
+[4.014475] (-) TimerEvent: {}
+[4.114942] (-) TimerEvent: {}
+[4.215237] (-) TimerEvent: {}
+[4.315502] (-) TimerEvent: {}
+[4.415848] (-) TimerEvent: {}
+[4.516251] (-) TimerEvent: {}
+[4.616540] (-) TimerEvent: {}
+[4.716889] (-) TimerEvent: {}
+[4.817418] (-) TimerEvent: {}
+[4.917862] (-) TimerEvent: {}
+[5.018125] (-) TimerEvent: {}
+[5.118443] (-) TimerEvent: {}
+[5.218849] (-) TimerEvent: {}
+[5.319099] (-) TimerEvent: {}
+[5.419446] (-) TimerEvent: {}
+[5.520066] (-) TimerEvent: {}
+[5.620645] (-) TimerEvent: {}
+[5.720917] (-) TimerEvent: {}
+[5.821187] (-) TimerEvent: {}
+[5.921523] (-) TimerEvent: {}
+[6.021885] (-) TimerEvent: {}
+[6.122235] (-) TimerEvent: {}
+[6.222599] (-) TimerEvent: {}
+[6.322968] (-) TimerEvent: {}
+[6.423256] (-) TimerEvent: {}
+[6.523530] (-) TimerEvent: {}
+[6.623904] (-) TimerEvent: {}
+[6.724432] (-) TimerEvent: {}
+[6.824745] (-) TimerEvent: {}
+[6.925102] (-) TimerEvent: {}
+[7.025754] (-) TimerEvent: {}
+[7.126314] (-) TimerEvent: {}
+[7.226627] (-) TimerEvent: {}
+[7.326978] (-) TimerEvent: {}
+[7.427427] (-) TimerEvent: {}
+[7.527661] (-) TimerEvent: {}
+[7.627980] (-) TimerEvent: {}
+[7.728631] (-) TimerEvent: {}
+[7.829173] (-) TimerEvent: {}
+[7.929473] (-) TimerEvent: {}
+[8.029762] (-) TimerEvent: {}
+[8.130066] (-) TimerEvent: {}
+[8.230363] (-) TimerEvent: {}
+[8.330664] (-) TimerEvent: {}
+[8.431037] (-) TimerEvent: {}
+[8.531508] (-) TimerEvent: {}
+[8.631851] (-) TimerEvent: {}
+[8.732114] (-) TimerEvent: {}
+[8.832489] (-) TimerEvent: {}
+[8.932980] (-) TimerEvent: {}
+[9.033290] (-) TimerEvent: {}
+[9.133627] (-) TimerEvent: {}
+[9.238203] (-) TimerEvent: {}
+[9.338472] (-) TimerEvent: {}
+[9.438782] (-) TimerEvent: {}
+[9.539169] (-) TimerEvent: {}
+[9.639451] (-) TimerEvent: {}
+[9.739866] (-) TimerEvent: {}
+[9.840324] (-) TimerEvent: {}
+[9.940848] (-) TimerEvent: {}
+[10.041196] (-) TimerEvent: {}
+[10.141559] (-) TimerEvent: {}
+[10.242074] (-) TimerEvent: {}
+[10.342397] (-) TimerEvent: {}
+[10.442636] (-) TimerEvent: {}
+[10.542946] (-) TimerEvent: {}
+[10.643358] (-) TimerEvent: {}
+[10.743665] (-) TimerEvent: {}
+[10.843986] (-) TimerEvent: {}
+[10.944375] (-) TimerEvent: {}
+[11.044857] (-) TimerEvent: {}
+[11.145148] (-) TimerEvent: {}
+[11.245504] (-) TimerEvent: {}
+[11.345969] (-) TimerEvent: {}
+[11.446305] (-) TimerEvent: {}
+[11.546585] (-) TimerEvent: {}
+[11.646917] (-) TimerEvent: {}
+[11.747342] (-) TimerEvent: {}
+[11.847629] (-) TimerEvent: {}
+[11.947937] (-) TimerEvent: {}
+[12.048370] (-) TimerEvent: {}
+[12.148975] (-) TimerEvent: {}
+[12.249287] (-) TimerEvent: {}
+[12.349645] (-) TimerEvent: {}
+[12.450023] (-) TimerEvent: {}
+[12.550289] (-) TimerEvent: {}
+[12.650579] (-) TimerEvent: {}
+[12.751007] (-) TimerEvent: {}
+[12.851558] (-) TimerEvent: {}
+[12.951864] (-) TimerEvent: {}
+[13.052142] (-) TimerEvent: {}
+[13.152463] (-) TimerEvent: {}
+[13.252742] (-) TimerEvent: {}
+[13.352999] (-) TimerEvent: {}
+[13.453350] (-) TimerEvent: {}
+[13.553925] (-) TimerEvent: {}
+[13.654417] (-) TimerEvent: {}
+[13.754658] (-) TimerEvent: {}
+[13.855004] (-) TimerEvent: {}
+[13.955403] (-) TimerEvent: {}
+[14.055668] (-) TimerEvent: {}
+[14.156017] (-) TimerEvent: {}
+[14.256628] (-) TimerEvent: {}
+[14.357220] (-) TimerEvent: {}
+[14.457503] (-) TimerEvent: {}
+[14.557837] (-) TimerEvent: {}
+[14.658268] (-) TimerEvent: {}
+[14.758539] (-) TimerEvent: {}
+[14.858823] (-) TimerEvent: {}
+[14.959164] (-) TimerEvent: {}
+[15.059646] (-) TimerEvent: {}
+[15.159912] (-) TimerEvent: {}
+[15.260177] (-) TimerEvent: {}
+[15.360559] (-) TimerEvent: {}
+[15.461044] (-) TimerEvent: {}
+[15.561321] (-) TimerEvent: {}
+[15.661688] (-) TimerEvent: {}
+[15.762087] (-) TimerEvent: {}
+[15.862397] (-) TimerEvent: {}
+[15.962671] (-) TimerEvent: {}
+[16.063027] (-) TimerEvent: {}
+[16.163450] (-) TimerEvent: {}
+[16.263660] (-) TimerEvent: {}
+[16.363995] (-) TimerEvent: {}
+[16.464634] (-) TimerEvent: {}
+[16.565643] (-) TimerEvent: {}
+[16.665909] (-) TimerEvent: {}
+[16.766216] (-) TimerEvent: {}
+[16.866567] (-) TimerEvent: {}
+[16.966815] (-) TimerEvent: {}
+[17.067063] (-) TimerEvent: {}
+[17.167430] (-) TimerEvent: {}
+[17.267940] (-) TimerEvent: {}
+[17.368185] (-) TimerEvent: {}
+[17.468434] (-) TimerEvent: {}
+[17.568690] (-) TimerEvent: {}
+[17.669028] (-) TimerEvent: {}
+[17.769293] (-) TimerEvent: {}
+[17.869597] (-) TimerEvent: {}
+[17.970099] (-) TimerEvent: {}
+[18.070570] (-) TimerEvent: {}
+[18.170863] (-) TimerEvent: {}
+[18.271262] (-) TimerEvent: {}
+[18.371777] (-) TimerEvent: {}
+[18.472041] (-) TimerEvent: {}
+[18.572358] (-) TimerEvent: {}
+[18.672875] (-) TimerEvent: {}
+[18.773432] (-) TimerEvent: {}
+[18.873745] (-) TimerEvent: {}
+[18.974092] (-) TimerEvent: {}
+[19.074456] (-) TimerEvent: {}
+[19.174741] (-) TimerEvent: {}
+[19.275035] (-) TimerEvent: {}
+[19.375436] (-) TimerEvent: {}
+[19.475907] (-) TimerEvent: {}
+[19.576164] (-) TimerEvent: {}
+[19.676431] (-) TimerEvent: {}
+[19.776762] (-) TimerEvent: {}
+[19.877210] (-) TimerEvent: {}
+[19.977450] (-) TimerEvent: {}
+[20.077667] (-) TimerEvent: {}
+[20.178021] (-) TimerEvent: {}
+[20.278349] (-) TimerEvent: {}
+[20.378590] (-) TimerEvent: {}
+[20.478917] (-) TimerEvent: {}
+[20.579297] (-) TimerEvent: {}
+[20.679564] (-) TimerEvent: {}
+[20.779908] (-) TimerEvent: {}
+[20.880507] (-) TimerEvent: {}
+[20.981008] (-) TimerEvent: {}
+[21.081335] (-) TimerEvent: {}
+[21.181637] (-) TimerEvent: {}
+[21.281979] (-) TimerEvent: {}
+[21.382215] (-) TimerEvent: {}
+[21.482477] (-) TimerEvent: {}
+[21.582836] (-) TimerEvent: {}
+[21.683263] (-) TimerEvent: {}
+[21.783557] (-) TimerEvent: {}
+[21.883831] (-) TimerEvent: {}
+[21.984120] (-) TimerEvent: {}
+[22.084416] (-) TimerEvent: {}
+[22.184659] (-) TimerEvent: {}
+[22.284948] (-) TimerEvent: {}
+[22.385469] (-) TimerEvent: {}
+[22.486040] (-) TimerEvent: {}
+[22.586316] (-) TimerEvent: {}
+[22.686663] (-) TimerEvent: {}
+[22.787038] (-) TimerEvent: {}
+[22.887287] (-) TimerEvent: {}
+[22.909029] (car_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcar_gazebo_plugin.so\x1b[0m\n'}
+[22.987417] (-) TimerEvent: {}
+[23.087890] (-) TimerEvent: {}
+[23.188681] (-) TimerEvent: {}
+[23.289180] (-) TimerEvent: {}
+[23.389702] (-) TimerEvent: {}
+[23.490547] (-) TimerEvent: {}
+[23.591134] (-) TimerEvent: {}
+[23.691537] (-) TimerEvent: {}
+[23.791995] (-) TimerEvent: {}
+[23.892351] (-) TimerEvent: {}
+[23.992775] (-) TimerEvent: {}
+[24.093102] (-) TimerEvent: {}
+[24.193728] (-) TimerEvent: {}
+[24.294094] (-) TimerEvent: {}
+[24.394382] (-) TimerEvent: {}
+[24.494740] (-) TimerEvent: {}
+[24.595198] (-) TimerEvent: {}
+[24.695562] (-) TimerEvent: {}
+[24.795964] (-) TimerEvent: {}
+[24.866912] (car_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target car_gazebo_plugin\n'}
+[24.882118] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[24.883325] (car_gazebo_plugin) JobProgress: {'identifier': 'car_gazebo_plugin', 'progress': 'install'}
+[24.883872] (car_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yappel/ros2_ws/build/car_gazebo_plugin'], 'cwd': '/home/yappel/ros2_ws/build/car_gazebo_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yappel'), ('LC_TIME', 'nl_NL.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/yappel/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yappel/ros2_ws/install/ackermann_msgs/lib:/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yappel'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/206/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/yappel/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/206/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/206/usr/share/code/code'), ('MANAGERPID', '958'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1208'), ('BUNDLED_DEBUGPY_PATH', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1729'), ('COLCON_PREFIX_PATH', '/home/yappel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yappel'), ('JOURNAL_STREAM', '8:7761'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/yappel/ros2_ws/install/smartcar_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/yappel/ros2_ws/install/smartcar_msgs/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'yappel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/yappel/.local/bin:/home/yappel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/yappel/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/yappel-IdeaPad-5-Pro-16ACH6:@/tmp/.ICE-unix/1180,unix/yappel-IdeaPad-5-Pro-16ACH6:/tmp/.ICE-unix/1180'), ('GTK_EXE_PREFIX', '/snap/code/206/usr'), ('INVOCATION_ID', '3d62c886056d4b43b7765873c6918955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/206/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yappel/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e20bd17b5a3a0058.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/yappel/.config/Code/User/workspaceStorage/6c22d946cfc67c5d308b9627e1123bf8/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/yappel/snap/code/206/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-593312e858.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/yappel/snap/code/206/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin:/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('OZONE_PLATFORM', 'x11'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yappel/ros2_ws/build/car_gazebo_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/yappel/snap/code/206/.local/share:/home/yappel/snap/code/206:/snap/code/206/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yappel/ros2_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin')]), 'shell': False}
+[24.893930] (car_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.894335] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.sh\n'}
+[24.894465] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.dsv\n'}
+[24.894542] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/car_gazebo_plugin\n'}
+[24.894642] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/car_gazebo_plugin\n'}
+[24.894739] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[24.894803] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[24.894862] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.sh\n'}
+[24.894922] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.dsv\n'}
+[24.894981] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.bash\n'}
+[24.895056] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.sh\n'}
+[24.895153] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.zsh\n'}
+[24.895236] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.dsv\n'}
+[24.895322] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv\n'}
+[24.895409] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/packages/car_gazebo_plugin\n'}
+[24.895489] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.895597] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.895697] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.895768] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig.cmake\n'}
+[24.895836] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig-version.cmake\n'}
+[24.895910] (car_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.xml\n'}
+[24.895980] (-) TimerEvent: {}
+[24.896169] (car_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/yappel/ros2_ws/install/car_gazebo_plugin/lib/libcar_gazebo_plugin.so\n'}
+[24.917978] (car_gazebo_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/yappel/ros2_ws/install/car_gazebo_plugin/lib/libcar_gazebo_plugin.so" to ""\n'}
+[24.924048] (car_gazebo_plugin) CommandEnded: {'returncode': 0}
+[24.938920] (car_gazebo_plugin) JobEnded: {'identifier': 'car_gazebo_plugin', 'rc': 0}
+[24.939899] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/home/yappel/ros2_ws/build/smartcar_msgs': /usr/bin/cmake --build /home/yappel/ros2_ws/build/smartcar_msgs -- -j16 -l16
+Invoked command in '/home/yappel/ros2_ws/build/smartcar_msgs' returned '0': /usr/bin/cmake --build /home/yappel/ros2_ws/build/smartcar_msgs -- -j16 -l16
+Invoking command in '/home/yappel/ros2_ws/build/smartcar_msgs': /usr/bin/cmake --install /home/yappel/ros2_ws/build/smartcar_msgs
+Invoked command in '/home/yappel/ros2_ws/build/smartcar_msgs' returned '0': /usr/bin/cmake --install /home/yappel/ros2_ws/build/smartcar_msgs

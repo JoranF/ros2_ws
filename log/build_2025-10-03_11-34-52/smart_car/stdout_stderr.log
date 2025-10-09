@@ -1,0 +1,15 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yappel/ros2_ws/build/smart_car
+-- Install configuration: ""
+-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/launch
+-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/launch/sim.launch.py
+-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/urdf
+-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/urdf/smart_car.urdf
+-- Up-to-date: /home/yappel/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/yappel/ros2_ws/src/smart_car/world": No
+  such file or directory.
+
+[0m

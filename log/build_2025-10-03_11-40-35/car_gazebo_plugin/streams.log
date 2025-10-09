@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/yappel/ros2_ws/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin LD_LIBRARY_PATH=/home/yappel/ros2_ws/install/ackermann_msgs/lib:/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yappel/ros2_ws/build/car_gazebo_plugin -- -j16 -l16
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target car_gazebo_plugin[0m
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/car_gazebo_plugin.dir/src/car_gazebo_plugin.cpp.o[0m
+[18.660s] [100%] [32m[1mLinking CXX shared library libcar_gazebo_plugin.so[0m
+[19.733s] [100%] Built target car_gazebo_plugin
+[19.744s] Invoked command in '/home/yappel/ros2_ws/build/car_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin LD_LIBRARY_PATH=/home/yappel/ros2_ws/install/ackermann_msgs/lib:/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yappel/ros2_ws/build/car_gazebo_plugin -- -j16 -l16
+[19.745s] Invoking command in '/home/yappel/ros2_ws/build/car_gazebo_plugin': CMAKE_PREFIX_PATH=/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin LD_LIBRARY_PATH=/home/yappel/ros2_ws/install/ackermann_msgs/lib:/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yappel/ros2_ws/build/car_gazebo_plugin
+[19.752s] -- Install configuration: ""
+[19.752s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.sh
+[19.752s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/library_path.dsv
+[19.752s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/car_gazebo_plugin
+[19.752s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/car_gazebo_plugin
+[19.752s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.sh
+[19.752s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/ament_prefix_path.dsv
+[19.752s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.sh
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/environment/path.dsv
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.bash
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.sh
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.zsh
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/local_setup.dsv
+[19.753s] -- Installing: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.dsv
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/ament_index/resource_index/packages/car_gazebo_plugin
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig.cmake
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/cmake/car_gazebo_pluginConfig-version.cmake
+[19.753s] -- Up-to-date: /home/yappel/ros2_ws/install/car_gazebo_plugin/share/car_gazebo_plugin/package.xml
+[19.753s] -- Installing: /home/yappel/ros2_ws/install/car_gazebo_plugin/lib/libcar_gazebo_plugin.so
+[19.770s] -- Set runtime path of "/home/yappel/ros2_ws/install/car_gazebo_plugin/lib/libcar_gazebo_plugin.so" to ""
+[19.772s] Invoked command in '/home/yappel/ros2_ws/build/car_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=/home/yappel/ros2_ws/install/ackermann_msgs:/opt/ros/humble:/home/yappel/ros2_ws/install/smartcar_msgs:/home/yappel/ros2_ws/install/smart_car:/home/yappel/ros2_ws/install/car_gazebo_plugin LD_LIBRARY_PATH=/home/yappel/ros2_ws/install/ackermann_msgs/lib:/home/yappel/ros2_ws/install/smartcar_msgs/lib:/home/yappel/ros2_ws/install/car_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yappel/ros2_ws/build/car_gazebo_plugin

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:55 (file):
+  file INSTALL cannot find
+  "/home/yappel/ros2_ws/src/smart_car/script/joint_state_pub.py": No such
+  file or directory.
+
+[0m
