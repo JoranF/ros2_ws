@@ -7,6 +7,9 @@ source;share/smartcar_msgs/hook/ld_library_path_lib.sh
 source;share/smartcar_msgs/hook/ros_package_path.ps1
 source;share/smartcar_msgs/hook/ros_package_path.dsv
 source;share/smartcar_msgs/hook/ros_package_path.sh
+source;share/smartcar_msgs/hook/catkin_pythonpath.ps1
+source;share/smartcar_msgs/hook/catkin_pythonpath.dsv
+source;share/smartcar_msgs/hook/catkin_pythonpath.sh
 source;share/smartcar_msgs/hook/pkg_config_path.ps1
 source;share/smartcar_msgs/hook/pkg_config_path.dsv
 source;share/smartcar_msgs/hook/pkg_config_path.sh

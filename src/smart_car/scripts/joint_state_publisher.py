@@ -3,13 +3,13 @@ import math
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import JointState
-from smartcar_msgs.msg import Status  # of vervang door het juiste type
+from smartcar_msgs.msg import Status
 from tf2_ros import TransformBroadcaster
 from geometry_msgs.msg import TransformStamped
 
 class JointStatePublisher(Node):
-    def _init_(self):
-        super()._init_('joint_state_pub')
+    def __init__(self):
+        super().__init__('joint_state_pub')
 
         # parameters
         self.declare_parameter('wheel_diameter', 0.064)
@@ -89,5 +89,5 @@ def main():
     node.destroy_node()
     rclpy.shutdown()
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
