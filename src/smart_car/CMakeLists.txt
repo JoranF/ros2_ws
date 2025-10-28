@@ -18,7 +18,6 @@ install(DIRECTORY
   scripts
   config
   map
-  rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
